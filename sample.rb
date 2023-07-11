@@ -243,20 +243,23 @@ array = [1,2,4,5,3,4,5,56,6]
 #     puts "it is not a prime number"
 # end
 
-a = [45,2,4,5,6,5, 6,6, 56,67,34,21]
+# a = [45,2,4,5,6,5, 6,6, 56,67,34,21]
 
-l = a.length
-max = a[0]
-for i in 0..l-1
-    for j in i+1..l-1
-        if a[i]>a[j]
-            a[i],a[j] = a[j],a[i]
-        end
-    end
-end
-puts a
+# l = a.length
+# max = a[0]
+# for i in 0..l-1
+#     for j in i+1..l-1
+#         if a[i]>a[j]
+#             a[i],a[j] = a[j],a[i]
+#         end
+#     end
+# end
+# puts a
 
+str = "Hi I am bhaskar"
+lst = str.split
 
+puts lst
 
 
 
