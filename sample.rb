@@ -256,10 +256,22 @@ array = [1,2,4,5,3,4,5,56,6]
 # end
 # puts a
 
-str = "Hi I am bhaskar"
-lst = str.split
+# str = "Hi I am bhaskar"
+# lst = str.split
 
-puts lst
+# puts lst
+
+# states = {
+#     "Andhra Pradesh" => "AP",
+#     "Tamilnadu" => "TN",
+#     "Karnataka" => "KA"
+# }
+
+# puts states["Andhra Pradesh"]
+
+# states.each do |key , value |
+#     puts "#{key} : #{value}"
+# end
 
 
 
